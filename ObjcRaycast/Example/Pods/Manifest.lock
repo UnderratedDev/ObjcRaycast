@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ObjcRaycast (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ObjcRaycast (from `../`)
+
+EXTERNAL SOURCES:
+  ObjcRaycast:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ObjcRaycast: cfcb6f9cc5db339e34d0cfc960d4b270a3aedf1c
+
+PODFILE CHECKSUM: 20528ed77ed50dc28df2b2604699bf51046e8ac5
+
+COCOAPODS: 1.4.0

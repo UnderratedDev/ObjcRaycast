@@ -1,0 +1,22 @@
+{
+  "name": "ObjcRaycast",
+  "version": "0.1.0",
+  "summary": "A short description of ObjcRaycast.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Underrateddev/ObjcRaycast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Underrateddev": "rajyudhvir29@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Underrateddev/ObjcRaycast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ObjcRaycast/Classes/**/*"
+}
