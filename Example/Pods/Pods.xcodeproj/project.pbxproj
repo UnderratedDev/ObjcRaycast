@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4982559608804CA8FD21C24B4457B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		405F03A693211FD6A798FCABD57B2F84 /* ObjcRaycast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6857DC9705D6C3737595CE7780AC9984 /* ObjcRaycast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D3D81F7EF7DC25EC730CFD0BD108DBA /* Pods-ObjcRaycast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E393BAB5A02A709B752A0EA67CDD2DD /* Pods-ObjcRaycast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C315565C7D39A7EE53C474FBF79FDD /* RCPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9073A5B6679F820F40CEC5CFE4EE0D /* RCPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71511BE660BBE9F542AFCB51D5210BA8 /* Pods-ObjcRaycast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B2FFA1D9C5BF118B4F7CFE200B7D97 /* Pods-ObjcRaycast_Example-dummy.m */; };
+		793408AD90475EECD168B6303FE1444B /* ObjcRaycast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C860B56D77134F40F71C4AA9326BD0 /* ObjcRaycast-dummy.m */; };
+		85515AB0CB539FF2A3BF418EFA416CA1 /* RCSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108993C871A9720E6AE3D797C2176AA /* RCSquare.m */; };
+		8D10269912C38F6FB7806D9F3571B08A /* Pods-ObjcRaycast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CC645A8CFBF38150C3186F7BE44927 /* Pods-ObjcRaycast_Tests-dummy.m */; };
+		94CFA412FEB054836832140E54CAA2E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		9C1F36CDA267AA225F1D022A9B462508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		A53D13E17E24ECAE9FDA3E52176689E3 /* RCPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = D109E06DC50B9FC030CBCD6A47FDBCAE /* RCPolygon.m */; };
+		C45C1E69A54CB01584DA2FC14D2337EC /* Pods-ObjcRaycast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF67AE08BA599CE1DD10D8F0FD5D02DA /* Pods-ObjcRaycast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDE9BF0D9402CF42FB95A8ADD042544 /* RCSquare.h in Headers */ = {isa = PBXBuildFile; fileRef = EB023AAEA36CC6ABAE5E315E8C839294 /* RCSquare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A3291143050AD3EFC0233F88F80A66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D0A22FD1A6F75D2BFD239DE16D2FAE4;
+			remoteInfo = ObjcRaycast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018F74DF94AC93B1D31D7E0D1ABA84B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		01CC645A8CFBF38150C3186F7BE44927 /* Pods-ObjcRaycast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjcRaycast_Tests-dummy.m"; sourceTree = "<group>"; };
+		01F5E6D1FFDB333F894CC0D94A0F1515 /* Pods-ObjcRaycast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcRaycast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		02E3276D9A2BF22E2B285A4536132B27 /* Pods-ObjcRaycast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjcRaycast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EA137A8BF736AA6A3463B9364906502 /* Pods-ObjcRaycast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjcRaycast_Example-resources.sh"; sourceTree = "<group>"; };
+		17943EA1ECF4EA2BF9C3B80E07CA4568 /* Pods-ObjcRaycast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcRaycast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1B6A1655A039DE492666E35AEE74CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		483FA0729BF3A3B0E1B37A5CA1B11B08 /* Pods-ObjcRaycast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjcRaycast_Tests-resources.sh"; sourceTree = "<group>"; };
+		4F1BA5005A62211993A67228AB772159 /* Pods-ObjcRaycast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcRaycast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5108993C871A9720E6AE3D797C2176AA /* RCSquare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCSquare.m; path = ObjcRaycast/Classes/RCSquare.m; sourceTree = "<group>"; };
+		534B4CC1C8DF18FDDABC2256E663137A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D418B85017A19A6033158F50E974FC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9073A5B6679F820F40CEC5CFE4EE0D /* RCPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCPolygon.h; path = ObjcRaycast/Classes/RCPolygon.h; sourceTree = "<group>"; };
+		5EA36A205A9C9FA93FD5A69D5489F74B /* ObjcRaycast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcRaycast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6857DC9705D6C3737595CE7780AC9984 /* ObjcRaycast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcRaycast-umbrella.h"; sourceTree = "<group>"; };
+		6A32922727974D25A2560B4D41DAA5F4 /* ObjcRaycast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ObjcRaycast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E393BAB5A02A709B752A0EA67CDD2DD /* Pods-ObjcRaycast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjcRaycast_Example-umbrella.h"; sourceTree = "<group>"; };
+		793164067C3B910B2D394E1B937DDE03 /* Pods-ObjcRaycast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjcRaycast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C51E25EF42EF36DC08B7227F938F16D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7FFE431ED38B0BEAD818DAC14CB4C81C /* Pods_ObjcRaycast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcRaycast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EAC7C392013F41D4702B7C534C4A90 /* Pods-ObjcRaycast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjcRaycast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		82B2FFA1D9C5BF118B4F7CFE200B7D97 /* Pods-ObjcRaycast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjcRaycast_Example-dummy.m"; sourceTree = "<group>"; };
+		84C860B56D77134F40F71C4AA9326BD0 /* ObjcRaycast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjcRaycast-dummy.m"; sourceTree = "<group>"; };
+		89599C04DFD30B42BB4531B5B957A273 /* Pods-ObjcRaycast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjcRaycast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0700E8335142D633A14BFB043C9275A /* ObjcRaycast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcRaycast.xcconfig; sourceTree = "<group>"; };
+		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF67AE08BA599CE1DD10D8F0FD5D02DA /* Pods-ObjcRaycast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjcRaycast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5EE859C6CAB3BA07ED1E35728D20148 /* Pods-ObjcRaycast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcRaycast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B65A0C5D5A3ECE39FF4070CCCF3F2497 /* Pods-ObjcRaycast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjcRaycast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA4983D161F3CC06D4C8FDBA8206FD83 /* Pods-ObjcRaycast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjcRaycast_Tests.modulemap"; sourceTree = "<group>"; };
+		CAAEC1A5AEEE3EA9EA0145495148C779 /* Pods-ObjcRaycast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjcRaycast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE8B9882345E2ED5719CFACE1402EEBF /* Pods_ObjcRaycast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcRaycast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D109E06DC50B9FC030CBCD6A47FDBCAE /* RCPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCPolygon.m; path = ObjcRaycast/Classes/RCPolygon.m; sourceTree = "<group>"; };
+		D700C8204784B7587B8B23EF5EC1CA6A /* ObjcRaycast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcRaycast-prefix.pch"; sourceTree = "<group>"; };
+		D8C47BBBD788AC56F732808EEE4CA0E8 /* Pods-ObjcRaycast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjcRaycast_Example.modulemap"; sourceTree = "<group>"; };
+		EB023AAEA36CC6ABAE5E315E8C839294 /* RCSquare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCSquare.h; path = ObjcRaycast/Classes/RCSquare.h; sourceTree = "<group>"; };
+		F14ED132ED816B781B5695C03885FA1E /* ObjcRaycast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjcRaycast.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1886B08D8E3B22F3D9443B8474233AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1F36CDA267AA225F1D022A9B462508 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9C753D28F61765EECEAB4AEE26606B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4982559608804CA8FD21C24B4457B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF1F56CE59661E66E104B060D482579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFA412FEB054836832140E54CAA2E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10143A4D2C93DA0097BA956EEC01BFC2 /* ObjcRaycast */ = {
+			isa = PBXGroup;
+			children = (
+				5E9073A5B6679F820F40CEC5CFE4EE0D /* RCPolygon.h */,
+				D109E06DC50B9FC030CBCD6A47FDBCAE /* RCPolygon.m */,
+				EB023AAEA36CC6ABAE5E315E8C839294 /* RCSquare.h */,
+				5108993C871A9720E6AE3D797C2176AA /* RCSquare.m */,
+				E764FA055F5799B5EED391AD8549DE7A /* Pod */,
+				DA76957FE376BBCF7ACBF60D571A3F8E /* Support Files */,
+			);
+			name = ObjcRaycast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3184E1AE57EF9784BCF0535313E9C008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA36A205A9C9FA93FD5A69D5489F74B /* ObjcRaycast.framework */,
+				CE8B9882345E2ED5719CFACE1402EEBF /* Pods_ObjcRaycast_Example.framework */,
+				7FFE431ED38B0BEAD818DAC14CB4C81C /* Pods_ObjcRaycast_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5688DF865A75C13CBADBD678E6F50745 /* Pods-ObjcRaycast_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B6A1655A039DE492666E35AEE74CA /* Info.plist */,
+				D8C47BBBD788AC56F732808EEE4CA0E8 /* Pods-ObjcRaycast_Example.modulemap */,
+				89599C04DFD30B42BB4531B5B957A273 /* Pods-ObjcRaycast_Example-acknowledgements.markdown */,
+				793164067C3B910B2D394E1B937DDE03 /* Pods-ObjcRaycast_Example-acknowledgements.plist */,
+				82B2FFA1D9C5BF118B4F7CFE200B7D97 /* Pods-ObjcRaycast_Example-dummy.m */,
+				CAAEC1A5AEEE3EA9EA0145495148C779 /* Pods-ObjcRaycast_Example-frameworks.sh */,
+				0EA137A8BF736AA6A3463B9364906502 /* Pods-ObjcRaycast_Example-resources.sh */,
+				6E393BAB5A02A709B752A0EA67CDD2DD /* Pods-ObjcRaycast_Example-umbrella.h */,
+				17943EA1ECF4EA2BF9C3B80E07CA4568 /* Pods-ObjcRaycast_Example.debug.xcconfig */,
+				B5EE859C6CAB3BA07ED1E35728D20148 /* Pods-ObjcRaycast_Example.release.xcconfig */,
+			);
+			name = "Pods-ObjcRaycast_Example";
+			path = "Target Support Files/Pods-ObjcRaycast_Example";
+			sourceTree = "<group>";
+		};
+		575D89D3D05376AA416CC8E8B1529308 /* Pods-ObjcRaycast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				534B4CC1C8DF18FDDABC2256E663137A /* Info.plist */,
+				CA4983D161F3CC06D4C8FDBA8206FD83 /* Pods-ObjcRaycast_Tests.modulemap */,
+				B65A0C5D5A3ECE39FF4070CCCF3F2497 /* Pods-ObjcRaycast_Tests-acknowledgements.markdown */,
+				02E3276D9A2BF22E2B285A4536132B27 /* Pods-ObjcRaycast_Tests-acknowledgements.plist */,
+				01CC645A8CFBF38150C3186F7BE44927 /* Pods-ObjcRaycast_Tests-dummy.m */,
+				81EAC7C392013F41D4702B7C534C4A90 /* Pods-ObjcRaycast_Tests-frameworks.sh */,
+				483FA0729BF3A3B0E1B37A5CA1B11B08 /* Pods-ObjcRaycast_Tests-resources.sh */,
+				AF67AE08BA599CE1DD10D8F0FD5D02DA /* Pods-ObjcRaycast_Tests-umbrella.h */,
+				01F5E6D1FFDB333F894CC0D94A0F1515 /* Pods-ObjcRaycast_Tests.debug.xcconfig */,
+				4F1BA5005A62211993A67228AB772159 /* Pods-ObjcRaycast_Tests.release.xcconfig */,
+			);
+			name = "Pods-ObjcRaycast_Tests";
+			path = "Target Support Files/Pods-ObjcRaycast_Tests";
+			sourceTree = "<group>";
+		};
+		6101563350A21516E837D94E7D02F7EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5688DF865A75C13CBADBD678E6F50745 /* Pods-ObjcRaycast_Example */,
+				575D89D3D05376AA416CC8E8B1529308 /* Pods-ObjcRaycast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A03F11ADF9BC6EC5BF173DD2D14024C7 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				3184E1AE57EF9784BCF0535313E9C008 /* Products */,
+				6101563350A21516E837D94E7D02F7EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
+				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
+				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
+				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A03F11ADF9BC6EC5BF173DD2D14024C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10143A4D2C93DA0097BA956EEC01BFC2 /* ObjcRaycast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DA76957FE376BBCF7ACBF60D571A3F8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D418B85017A19A6033158F50E974FC8 /* Info.plist */,
+				F14ED132ED816B781B5695C03885FA1E /* ObjcRaycast.modulemap */,
+				A0700E8335142D633A14BFB043C9275A /* ObjcRaycast.xcconfig */,
+				84C860B56D77134F40F71C4AA9326BD0 /* ObjcRaycast-dummy.m */,
+				D700C8204784B7587B8B23EF5EC1CA6A /* ObjcRaycast-prefix.pch */,
+				6857DC9705D6C3737595CE7780AC9984 /* ObjcRaycast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ObjcRaycast";
+			sourceTree = "<group>";
+		};
+		E764FA055F5799B5EED391AD8549DE7A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				018F74DF94AC93B1D31D7E0D1ABA84B4 /* LICENSE */,
+				6A32922727974D25A2560B4D41DAA5F4 /* ObjcRaycast.podspec */,
+				7C51E25EF42EF36DC08B7227F938F16D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4910A66BA3A1925C993ED547C3ABDD54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45C1E69A54CB01584DA2FC14D2337EC /* Pods-ObjcRaycast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A98A0264BFAB7C6628C39BB74142DA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3D81F7EF7DC25EC730CFD0BD108DBA /* Pods-ObjcRaycast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA4FC980999C45A936CF15231051224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F03A693211FD6A798FCABD57B2F84 /* ObjcRaycast-umbrella.h in Headers */,
+				70C315565C7D39A7EE53C474FBF79FDD /* RCPolygon.h in Headers */,
+				DCDE9BF0D9402CF42FB95A8ADD042544 /* RCSquare.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D0A22FD1A6F75D2BFD239DE16D2FAE4 /* ObjcRaycast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB57E1E1C342899F77B17A6F477B8D1 /* Build configuration list for PBXNativeTarget "ObjcRaycast" */;
+			buildPhases = (
+				D47CCFBDB1E59FFCA7B9DB02B9C69601 /* Sources */,
+				4C9C753D28F61765EECEAB4AEE26606B /* Frameworks */,
+				BBA4FC980999C45A936CF15231051224 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcRaycast;
+			productName = ObjcRaycast;
+			productReference = 5EA36A205A9C9FA93FD5A69D5489F74B /* ObjcRaycast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39B3601EAEC2A328594FF3F5B8B51332 /* Pods-ObjcRaycast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235A2767689ADFB8568D02ADBEDE4CB0 /* Build configuration list for PBXNativeTarget "Pods-ObjcRaycast_Tests" */;
+			buildPhases = (
+				4D359D75A68B62BE4ACD6C3DA46B7C91 /* Sources */,
+				1886B08D8E3B22F3D9443B8474233AAC /* Frameworks */,
+				4910A66BA3A1925C993ED547C3ABDD54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ObjcRaycast_Tests";
+			productName = "Pods-ObjcRaycast_Tests";
+			productReference = 7FFE431ED38B0BEAD818DAC14CB4C81C /* Pods_ObjcRaycast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D51ABEE1C13161B9BB3F95D4A6C121BE /* Pods-ObjcRaycast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73AA71416C23E05D1D1C02B24A6A9B9 /* Build configuration list for PBXNativeTarget "Pods-ObjcRaycast_Example" */;
+			buildPhases = (
+				E1B4989AA7479E9703EA3FD1247F0FD2 /* Sources */,
+				5BF1F56CE59661E66E104B060D482579 /* Frameworks */,
+				8A98A0264BFAB7C6628C39BB74142DA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FCB1BE95E60C070AF604DD286028B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjcRaycast_Example";
+			productName = "Pods-ObjcRaycast_Example";
+			productReference = CE8B9882345E2ED5719CFACE1402EEBF /* Pods_ObjcRaycast_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3184E1AE57EF9784BCF0535313E9C008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D0A22FD1A6F75D2BFD239DE16D2FAE4 /* ObjcRaycast */,
+				D51ABEE1C13161B9BB3F95D4A6C121BE /* Pods-ObjcRaycast_Example */,
+				39B3601EAEC2A328594FF3F5B8B51332 /* Pods-ObjcRaycast_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D359D75A68B62BE4ACD6C3DA46B7C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D10269912C38F6FB7806D9F3571B08A /* Pods-ObjcRaycast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47CCFBDB1E59FFCA7B9DB02B9C69601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793408AD90475EECD168B6303FE1444B /* ObjcRaycast-dummy.m in Sources */,
+				A53D13E17E24ECAE9FDA3E52176689E3 /* RCPolygon.m in Sources */,
+				85515AB0CB539FF2A3BF418EFA416CA1 /* RCSquare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B4989AA7479E9703EA3FD1247F0FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71511BE660BBE9F542AFCB51D5210BA8 /* Pods-ObjcRaycast_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FCB1BE95E60C070AF604DD286028B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcRaycast;
+			target = 0D0A22FD1A6F75D2BFD239DE16D2FAE4 /* ObjcRaycast */;
+			targetProxy = 8A3291143050AD3EFC0233F88F80A66B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29728F13B2341A410C8BCBCB6C2743A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17943EA1ECF4EA2BF9C3B80E07CA4568 /* Pods-ObjcRaycast_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjcRaycast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjcRaycast_Example/Pods-ObjcRaycast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ObjcRaycast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30DB3FF95C1021854E8A05C22A8135CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EE859C6CAB3BA07ED1E35728D20148 /* Pods-ObjcRaycast_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjcRaycast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjcRaycast_Example/Pods-ObjcRaycast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ObjcRaycast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		510460253D7D3718ADAFECC7D8FCD4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0700E8335142D633A14BFB043C9275A /* ObjcRaycast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcRaycast/ObjcRaycast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjcRaycast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcRaycast/ObjcRaycast.modulemap";
+				PRODUCT_NAME = ObjcRaycast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC320AB472247BA653A668809D6A0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0700E8335142D633A14BFB043C9275A /* ObjcRaycast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcRaycast/ObjcRaycast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjcRaycast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcRaycast/ObjcRaycast.modulemap";
+				PRODUCT_NAME = ObjcRaycast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		693F78A3EFB8B11486503BCF7E48985E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1BA5005A62211993A67228AB772159 /* Pods-ObjcRaycast_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjcRaycast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjcRaycast_Tests/Pods-ObjcRaycast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ObjcRaycast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72BDE0602DEDAC3A4EAB1C4D8FEE0E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F5E6D1FFDB333F894CC0D94A0F1515 /* Pods-ObjcRaycast_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjcRaycast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjcRaycast_Tests/Pods-ObjcRaycast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ObjcRaycast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235A2767689ADFB8568D02ADBEDE4CB0 /* Build configuration list for PBXNativeTarget "Pods-ObjcRaycast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BDE0602DEDAC3A4EAB1C4D8FEE0E86 /* Debug */,
+				693F78A3EFB8B11486503BCF7E48985E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB57E1E1C342899F77B17A6F477B8D1 /* Build configuration list for PBXNativeTarget "ObjcRaycast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510460253D7D3718ADAFECC7D8FCD4B6 /* Debug */,
+				5FC320AB472247BA653A668809D6A0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73AA71416C23E05D1D1C02B24A6A9B9 /* Build configuration list for PBXNativeTarget "Pods-ObjcRaycast_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29728F13B2341A410C8BCBCB6C2743A1 /* Debug */,
+				30DB3FF95C1021854E8A05C22A8135CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

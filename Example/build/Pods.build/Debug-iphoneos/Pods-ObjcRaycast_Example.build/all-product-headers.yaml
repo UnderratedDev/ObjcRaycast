@@ -1,0 +1,70 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Debug-iphoneos/ObjcRaycast/ObjcRaycast.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjcRaycast-Swift.h",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Debug-iphoneos/ObjcRaycast/ObjcRaycast.framework/Headers/ObjcRaycast-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjcRaycast-umbrella.h",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/Pods/Target Support Files/ObjcRaycast/ObjcRaycast-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "RCPolygon.h",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/ObjcRaycast/Classes/RCPolygon.h"
+        },
+        {
+          'type': 'file',
+          'name': "RCSquare.h",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/ObjcRaycast/Classes/RCSquare.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Debug-iphoneos/ObjcRaycast/ObjcRaycast.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Pods.build/Debug-iphoneos/ObjcRaycast.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Debug-iphoneos/Pods_ObjcRaycast_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ObjcRaycast_Example-umbrella.h",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/Pods/Target Support Files/Pods-ObjcRaycast_Example/Pods-ObjcRaycast_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ObjcRaycast_Example-Swift.h",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Debug-iphoneos/Pods_ObjcRaycast_Example.framework/Headers/Pods_ObjcRaycast_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Debug-iphoneos/Pods_ObjcRaycast_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yudhvirraj/Documents/Projects/ObjcRaycast/ObjcRaycast/Example/build/Pods.build/Debug-iphoneos/Pods-ObjcRaycast_Example.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
